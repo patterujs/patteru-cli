@@ -1,25 +1,28 @@
 .idea/
-.envrc
+.gitignore
+.prettierrc
+.travis.yml
+Makefile
 node_modules/
 .DS_Store
-*.map
+CONTRIBUTE.md
 
-# output
-lib/**/*.js
-commands/**/*.js
-actions/**/*.js
-bin/**/*.js
-lib/**/*.d.ts
-commands/**/*.d.ts
-actions/**/*.d.ts
-bin/**/*.d.ts
+# source
+**/*.ts
+*.ts
+/test
+
+# definitions
+!**/*.d.ts
+!*.d.ts
 
 # configuration
 renovate.json
 gulpfile.js
+tsconfig.json
+tools
+/test/jest-config.json
 /.vscode
 
 # sample
 /sample
-
-yarn.lock
