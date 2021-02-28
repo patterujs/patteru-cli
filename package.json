@@ -1,6 +1,6 @@
 {
   "name": "@patterujs/cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Patteru - Small load balancer for developers",
   "contributors": [
     "Achmad Irianto Eka Putra <ryanbekhen.official@gmail.com>",
@@ -20,6 +20,11 @@
     "node": ">= 10.13.0",
     "npm": ">= 6.11.0"
   },
+  "keywords": [
+    "cli",
+    "loadbalancer",
+    "balancer"
+  ],
   "publishConfig": {
     "access": "public"
   },
