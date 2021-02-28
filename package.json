@@ -23,7 +23,9 @@
   "keywords": [
     "cli",
     "loadbalancer",
-    "balancer"
+    "balancer",
+    "tool",
+    "cli tool"
   ],
   "publishConfig": {
     "access": "public"
