@@ -1,0 +1,58 @@
+{
+  "name": "@patterujs/patteru-cli",
+  "version": "1.0.0",
+  "description": "Patteru - Small load balancer for developers",
+  "contributors": [
+    "Achmad Irianto Eka Putra <ryanbekhen.official@gmail.com>",
+    "Grendy Irwandi <grendy50@gmail.com>",
+    "Ridwan <rid.nvil17@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patterujs/patteru-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patterujs/patteru-cli.git"
+  },
+  "homepage": "https://github.com/patterujs/patteru-cli#readme",
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0"
+  },
+  "bin": {
+    "patteru": "bin/patteru.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node bin/patteru.ts",
+    "clean": "gulp clean:bundle",
+    "start": "node bin/patteru.js",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "prerelease": "npm run build",
+    "release": "release-it",
+    "ab": "ab -c200 -t10 http://localhost/"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "http-proxy": "^1.18.1",
+    "node-emoji": "^1.10.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.5",
+    "@types/node": "^14.14.31",
+    "@types/node-emoji": "^1.8.1",
+    "@types/shelljs": "^0.8.8",
+    "@types/yargs": "^16.0.0",
+    "delete-empty": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "prettier": "^2.2.1",
+    "release-it": "^14.4.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}
