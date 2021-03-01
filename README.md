@@ -2,10 +2,10 @@
 
 A [Node.js](https://nodejs.org/en/) CLI Tool for small load balancer
 
-![npm](https://img.shields.io/npm/v/@patterujs/cli)
-![NPM](https://img.shields.io/npm/l/@patterujs/cli)
+[![npm](https://img.shields.io/npm/v/@patterujs/cli)](https://www.npmjs.com/package/@patterujs/cli)
+[![NPM](https://img.shields.io/npm/l/@patterujs/cli)](https://github.com/patterujs/patteru-cli/blob/main/LICENSE)
 [![Known Vulnerabilities](https://snyk.io/test/github/patterujs/patteru-cli/badge.svg?targetFile=package.json)](https://snyk.io/test/github/patterujs/patteru-cli?targetFile=package.json)
-![GitHub last commit](https://img.shields.io/github/last-commit/patterujs/patteru-cli)
+[![GitHub last commit](https://img.shields.io/github/last-commit/patterujs/patteru-cli)](https://github.com/patterujs/patteru-cli/commits/main)
 
 ## Description
 
